@@ -4,7 +4,7 @@ import React from "react"
 import Logo from "../images/Frosh3019Logo.png"
 import Background from "../images/HeaderBackground.png"
 import '../pages/App.css'
-import DropdownButton from 'react-bootstrap/DropdownButton'
+import Dropdown from 'react-bootstrap/Dropdown'
 
 const Header = ({ siteTitle }) => (
   
@@ -14,7 +14,17 @@ const Header = ({ siteTitle }) => (
         transform: 'translate(-50%, 0)'}} alt="" />
       <h1 style= {{position: 'relative', left: `44%`, transform: 'translate(0, -50%)', color: `white`}} alt="">Frosh 3019</h1>
       <h2 style= {{position: 'relative', left: `40%`, transform: 'translate(0, -50%)', color: `white`}} alt="">The Frosh of Tomorrow</h2>
-      <DropdownButton/>
+      <Dropdown id={`hi`}>
+  <Dropdown.Toggle variant="success" id="dropdown-basic">
+    Dropdown Button
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
     </header>
     </span>
 )
