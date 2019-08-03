@@ -1,4 +1,13 @@
 body {
-    max-width: 500px;
     margin: auto;
+    font-family: 'Times New Roman', Times, serif;
   }
+header
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+subheader
+{
+    font-family: 'Courier New', Courier, monospace;
+}
