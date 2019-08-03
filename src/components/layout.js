@@ -30,12 +30,13 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
+          maxWidth: 960,
           paddingTop: 0,
         }}
       >
         <main>{children}</main>
-        <Footer/>
       </div>
+      <Footer/>
     </>
   )
 }

@@ -17,7 +17,8 @@ const Header = ({ siteTitle }) => (
         alignItems:`center`,
         height:`13vh`,
         display: `flex`}}>
-      <h1 style= {{color: `white`}}>Frosh 3019</h1>
+      <h1 style= {{color: `white`}}> <Link
+          to="/" style={{color:`white`, textDecoration:`none`}}>Frosh 3019</Link></h1>
       </div>
       <div style = {{margin: `0 auto`,
         justifyContent: `center`,
@@ -32,7 +33,7 @@ const Header = ({ siteTitle }) => (
         height:`13vh`,
         display: `flex`}}>
       <Dropdown id={`hi`}>
-  <Dropdown.Toggle variant="success" id="dropdown-basic" style = {{width: 500}}>
+  <Dropdown.Toggle variant="success" id="dropdown-basic" style = {{width: 500, backgroundColor:`#34ecbe`}}>
     Menu
   </Dropdown.Toggle>
 
