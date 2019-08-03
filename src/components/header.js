@@ -32,8 +32,8 @@ const Header = ({ siteTitle }) => (
         alignItems:`center`,
         height:`13vh`,
         display: `flex`}}>
-      <Dropdown id={`hi`}>
-  <Dropdown.Toggle variant="success" id="dropdown-basic" style = {{width: 500, backgroundColor:`#34ecbe`}}>
+      <span><Dropdown id={`hi`}>
+  <Dropdown.Toggle variant="success" id="dropdown-basic" style = {{backgroundColor:`#34ecbe`}}>
     Menu
   </Dropdown.Toggle>
 
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
     <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
   </Dropdown.Menu>
-</Dropdown>
+</Dropdown></span>
 </div>
     </header>
     </span>
