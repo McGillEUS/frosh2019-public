@@ -8,7 +8,7 @@ const SecondPage = () => (
   <Layout>
     <div>
     <SEO title="FAQ" />
-    <h2 style={{paddingLeft:'10px'}}>General Information</h2>
+    <h1 style={{paddingLeft:'10px'}}>General Information</h1>
     <h3 style={{paddingLeft:'10px'}}>What is Frosh? </h3>
     <p style={{paddingLeft:'10px'}}>Frosh is a four-day event for new undergraduate students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community, all while exploring the McGill campus and the city of Montreal.</p>
     <h3 style={{paddingLeft:'10px'}}>What happens at Frosh?</h3>
@@ -44,7 +44,7 @@ const SecondPage = () => (
     &bull;White Froshie t-shirt (provided when you pick up your gear)<br></br>
     Pro tip: all of your leaders, staff, and coordinators will be wearing fanny packs to carry their belongings, so if you have one, bring it! Otherwise, the Frosh bag provided at registration is good for carrying your things.
     </p>
-    <h2>Community</h2>
+    <h1 style={{paddingLeft:'10px'}}>Community</h1>
     <h3 style={{paddingLeft:'10px'}}>What is the EUS?</h3>
     <p style={{paddingLeft:'10px'}}>The Engineering Undergraduate Society (EUS) is a student-led organization that represents engineering and architecture undergraduate students at McGill University. The EUS supports its students through organized funding for improvement of student life and academics, representation through council, and coordinating an immense amount of opportunities to get involved. Find out more at wiki.mcgilleus.ca, by reading the EUS Handbook that you’ll receive early in the year, or by dropping by the EUS Office in McConnell Room 7!</p>
     <h3 style={{paddingLeft:'10px'}}>Who are Frosh Coordinators?</h3>
@@ -74,7 +74,7 @@ const SecondPage = () => (
     <p style={{paddingLeft:'10px'}}>That’s absolutely ok! Frosh events are just as fun for those who do not drink and those who drink.</p>
     <h3 style={{paddingLeft:'10px'}}>Is there a sober group?</h3>
     <p style={{paddingLeft:'10px'}}>No. However, in each Frosh group, there will be at least one designated sober Leader at all times. Leaders are allowed to consume alcohol during events, so long as they drink and act responsibly.</p>
-    <h2>Harm Reduction</h2>
+    <h1 style={{paddingLeft:'10px'}}>Harm Reduction</h1>
     <h3 style={{paddingLeft:'10px'}}>Will food be provided at Frosh events?</h3>
     <p style={{paddingLeft:'10px'}}>Food will be provided at some, but not all events. To help you plan your eating schedule, we will indicate the events at which food will be provided on the Events page and in your Froshie handbook. Most of our events occur in downtown Montreal, so there are plenty of places to purchase food nearby.</p>
     <h3 style={{paddingLeft:'10px'}}>I have dietary restrictions, will there be food available to me?</h3>
@@ -86,7 +86,7 @@ const SecondPage = () => (
     <br></br>Consent can never be assumed, and cannot be given if a person is incapacitated by alcohol or drugs. Consent cannot be given when one party has a position of power over another party (e.g. a Froshie and a Frosh Leader).
     <br></br>The topic of consent will be explored more in the “How to Frosh” video that you will watch upon registration for Frosh. If you have any questions regarding consent during Frosh, talk to one of your Leaders or a Frosh Coordinator.
     </p>
-    <h2>Accessibility</h2>
+    <h1 style={{paddingLeft:'10px'}}>Accessibility</h1>
     <h3 style={{paddingLeft:'10px'}}>I have mobility restrictions, will I be able to participate in Frosh?</h3>
     <p style={{paddingLeft:'10px'}}>Absolutely. We’ve done our best to maximize the number of accessible events in our schedule - see the froshie package page for accessibility details about each venue. For the venues that are inaccessible by wheelchair, we may be able to work out a solution - contact the Frosh Coordinators at oweek.communications@mcgilleus.ca for more details.</p>
     <h3 style={{paddingLeft:'10px'}}>During Frosh, where can I seek additional support for accessibility challenges?</h3>
