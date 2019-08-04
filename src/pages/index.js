@@ -48,6 +48,25 @@ const IndexPage = () => (
 
   <br></br>
   <br></br>
+
+<div style={{
+      justifyContent: `center`,
+      alignItems:`center`,
+      height: '17vh',
+      display: `flex`,
+    }}>
+
+    <h1> Map</h1>
+    </div>
+    <div style={{
+      justifyContent: `center`,
+      alignItems:`center`,
+      display: `flex`,
+    }}>
+    <div className = "responsive">
+                <iframe  src="https://www.google.com/maps/d/embed?mid=1RaEaAYk3DDxatIi5vHlH-9npIWr95XNi" width="640" height="480"></iframe>
+              </div>
+    </div>
   </Layout>
 )
 
