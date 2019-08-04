@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Khand');
 html {
   font-family: 'Jura';
   -ms-text-size-adjust: 100%;
@@ -230,8 +231,8 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: 'Jura';
+  color: '#260040';
+  font-family: 'Khand';
   font-weight: bold;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -247,8 +248,8 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: 'Jura';
+  color: '#260040';
+  font-family: 'Khand';
   text-transform: uppercase;
   font-weight: bold;
   text-rendering: optimizeLegibility;

@@ -31,7 +31,7 @@ class Dropdown extends Component {
       <div className="DropDown">
         <div className="container" ref={this.container}>
           <button type="button" class="button" onClick={this.handleButtonClick} style={{width:350, height:50, position: 'relative', left: '50%',
-        transform: 'translate(-50%, 0)', borderRadius:`7px`, backgroundColor:`blue`}}>
+        transform: 'translate(-50%, 0)', borderRadius:`7px`, backgroundColor:`#a866ce`}}>
             Menu  ▾
           </button>
           {this.state.open && (
