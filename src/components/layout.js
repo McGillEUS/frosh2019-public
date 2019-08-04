@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
+import Dropdown from '../components/dropdown'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,6 +28,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <span><Dropdown title="Select fruit" list={["1","2","3"]} style={{width:400}}/></span>
+      <br></br>
+      <br></br>
+      <br></br>
       <div
         style={{
           margin: `0 auto`,
