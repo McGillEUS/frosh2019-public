@@ -36,8 +36,8 @@ class Dropdown extends Component {
           </button>
           {this.state.open && (
             <div class="container">
-              <ul style={{width:300, position: 'relative', left: '50%',
-        transform: 'translate(-50%, 0)', alignContent:`left`, justifyContent:`left`, boxShadow:'1px 3px 3px 1px #9E9E9E'}}>
+              <ul style={{width:325, position: 'relative', left: '50%',
+        transform: 'translate(-58%, 0)', alignContent:`left`, justifyContent:`left`, boxShadow:'1px 3px 3px 1px #9E9E9E'}}>
                 <Link to="/" style={{textDecoration:`none`}}>Home</Link>
                <br></br>
                 <Link to="/faq" style={{textDecoration:`none`}}>Frequently Asked Questions</Link>
