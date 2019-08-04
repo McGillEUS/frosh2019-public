@@ -12,7 +12,8 @@ const StaffPage = () => (
       margin: `0 auto`,
       justifyContent: `center`,
       alignItems:`center`,
-      display: `flex`
+      display: `flex`,
+      paddingLeft:'15px', paddingRight:'15px'
     }}>
     Coming soon! For now, here's a picture of a dog :)</h1>
     <br></br>
