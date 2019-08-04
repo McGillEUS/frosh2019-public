@@ -30,13 +30,13 @@ class Dropdown extends Component {
     return (
       <div className="DropDown">
         <div className="container" ref={this.container}>
-          <button type="button" class="button" onClick={this.handleButtonClick} style={{width:400, height:50, position: 'relative', left: '50%',
+          <button type="button" class="button" onClick={this.handleButtonClick} style={{width:350, height:50, position: 'relative', left: '50%',
         transform: 'translate(-50%, 0)', borderRadius:`7px`, backgroundColor:`blue`}}>
             Menu  ▾
           </button>
           {this.state.open && (
             <div class="container">
-              <ul style={{width:400, position: 'relative', left: '50%',
+              <ul style={{width:350, position: 'relative', left: '50%',
         transform: 'translate(-50%, 0)'}}>
                 <Link to="/">Home</Link>
                 <br></br>

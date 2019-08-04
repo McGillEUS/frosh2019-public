@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <span><Dropdown title="Select fruit" list={["1","2","3"]} style={{width:375}}/></span>
+      <span><Dropdown title="Select fruit" list={["1","2","3"]} style={{width:350}}/></span>
       <br></br>
       <br></br>
       <br></br>
