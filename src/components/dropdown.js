@@ -38,10 +38,17 @@ class Dropdown extends Component {
             <div class="container">
               <ul style={{width:400, position: 'relative', left: '50%',
         transform: 'translate(-50%, 0)'}}>
-                <li><Link to="/">Home</Link></li>
-                <li>Option 2</li>
-                <li>Option 3</li>
-                <li>Option 4</li>
+                <Link to="/">Home</Link>
+                <br></br>
+                <Link to="/faq">Frequently Asked Questions</Link>
+                <br></br>
+                <Link to="/staff">Staff</Link>
+                <br></br>
+                <Link to="/resources">Resources</Link>
+                <br></br>
+                <Link to="/bursary">Bursary Application</Link>
+                <br></br>
+                <Link to="/">Register Now!</Link>
               </ul>
             </div>
           )}
