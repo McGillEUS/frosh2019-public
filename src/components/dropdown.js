@@ -32,23 +32,23 @@ class Dropdown extends Component {
         <div className="container" ref={this.container}>
           <button type="button" class="button" onClick={this.handleButtonClick} style={{width:350, height:50, position: 'relative', left: '50%',
         transform: 'translate(-50%, 0)', borderRadius:`7px`, backgroundColor:`#a866ce`}}>
-            Menu  ▾
+           MENU  ▾
           </button>
           {this.state.open && (
             <div class="container">
               <ul style={{width:350, position: 'relative', left: '50%',
         transform: 'translate(-50%, 0)'}}>
-                <Link to="/">Home</Link>
+                <Link to="/" style={{textDecoration:`none`}}>Home</Link>
                 <br></br>
-                <Link to="/faq">Frequently Asked Questions</Link>
+                <Link to="/faq" style={{textDecoration:`none`}}>Frequently Asked Questions</Link>
                 <br></br>
-                <Link to="/staff">Staff</Link>
+                <Link to="/staff" style={{textDecoration:`none`}}>Staff</Link>
                 <br></br>
-                <Link to="/resources">Resources</Link>
+                <Link to="/resources" style={{textDecoration:`none`}}>Resources</Link>
                 <br></br>
-                <Link to="/bursary">Bursary Application</Link>
+                <Link to="/bursary" style={{textDecoration:`none`}}>Bursary Application</Link>
                 <br></br>
-                <Link to="/">Register Now!</Link>
+                <Link to="/" style={{textDecoration:`none`}}>Register Now!</Link>
               </ul>
             </div>
           )}

@@ -227,8 +227,8 @@ h1 {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 2;
+  padding-right: 2;
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: '#260040';
@@ -244,8 +244,8 @@ h2 {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 2;
+  padding-right: 2;
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: '#260040';
@@ -253,7 +253,7 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 1.9rem;
   line-height: 1.1;
 }
 h3 {
@@ -261,8 +261,8 @@ h3 {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 2;
+  padding-right: 2;
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
@@ -277,8 +277,8 @@ h4 {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 2;
+  padding-right: 2;
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
@@ -379,12 +379,12 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 10;
+  margin-right: 10;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 10;
+  padding-right: 10;
   padding-top: 0;
   margin-bottom: 1.45rem;
 }

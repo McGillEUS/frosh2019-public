@@ -15,6 +15,8 @@ const StaffPage = () => (
       display: `flex`
     }}>
     Coming soon! For now, here's a picture of a dog :)</h1>
+    <br></br>
+    <br></br>
     <img style={{display:`flex`}} src={Dog}></img>
   </Layout>
 )
