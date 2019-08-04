@@ -20,7 +20,7 @@ const IndexPage = () => (
     }}>
     General Information</h1>
     <br></br>
-    <h4 style = {{display: `flex`}}>Welcome to McGill Engineering! We here at the Engineering Undergraduate Society (EUS) would like to wish you a warm welcome to McGill. The EUS is the student-run representative body of undergraduate students in the Faculty of Engineering, supporting student clubs, design teams, services, groups, and more. Your first chance to get involved in the EUS will be at Orientation Week, or Engineering Frosh, occurring August 29th through September 1st. Engineering Frosh is the largest event of the Fall semester, with the majority of the 800 new engineering students taking part in events such as concert nights, sports, beach day, and more! The team of Engineering Frosh Coordinators, composed entirely of engineering students, has been working hard all summer to bring you the most exciting week possible. Check out our event trailer and our Facebook and Instagram pages below, and email us any time at oweek.communications@mcgilleus.ca.</h4>
+    <p style = {{display: `flex`}}>Welcome to McGill Engineering! We here at the Engineering Undergraduate Society (EUS) would like to wish you a warm welcome to McGill. The EUS is the student-run representative body of undergraduate students in the Faculty of Engineering, supporting student clubs, design teams, services, groups, and more. Your first chance to get involved in the EUS will be at Orientation Week, or Engineering Frosh, occurring August 29th through September 1st. Engineering Frosh is the largest event of the Fall semester, with the majority of the 800 new engineering students taking part in events such as concert nights, sports, beach day, and more! The team of Engineering Frosh Coordinators, composed entirely of engineering students, has been working hard all summer to bring you the most exciting week possible. Check out our event trailer and our Facebook and Instagram pages below, and email us any time at oweek.communications@mcgilleus.ca.</p>
     <br></br>
     <br></br>
     
@@ -64,7 +64,7 @@ const IndexPage = () => (
       display: `flex`,
     }}>
     <div className = "responsive">
-                <iframe  src="https://www.google.com/maps/d/embed?mid=1RaEaAYk3DDxatIi5vHlH-9npIWr95XNi" width="640" height="480"></iframe>
+                <iframe  src="https://www.google.com/maps/d/embed?mid=1RaEaAYk3DDxatIi5vHlH-9npIWr95XNi" width="640" height="480" style={{display:`flex`}}></iframe>
               </div>
     </div>
   </Layout>
