@@ -38,17 +38,17 @@ class Dropdown extends Component {
             <div class="container">
               <ul style={{width:325, position: 'relative', left: '50%',
         transform: 'translate(-58%, 0)', alignContent:`left`, justifyContent:`left`, boxShadow:'1px 3px 3px 1px #9E9E9E'}}>
-                <Link to="/" style={{textDecoration:`none`}}>Home</Link>
+                <Link to="/" style={{textDecoration:`none`, color:`#a866ce`}}>Home</Link>
                <br></br>
-                <Link to="/faq" style={{textDecoration:`none`}}>Frequently Asked Questions</Link>
+                <Link to="/faq" style={{textDecoration:`none`, color:`#a866ce`}}>Frequently Asked Questions</Link>
                 <br></br>
-                <Link to="/staff" style={{textDecoration:`none`}}>Staff</Link>
+                <Link to="/staff" style={{textDecoration:`none`, color:`#a866ce`}}>Staff</Link>
                 <br></br>
-                <Link to="/resources" style={{textDecoration:`none`}}>Resources</Link>
+                <Link to="/resources" style={{textDecoration:`none`, color:`#a866ce`}}>Resources</Link>
                 <br></br>
-                <Link to="/bursary" style={{textDecoration:`none`}}>Bursary Application</Link>
+                <Link to="/bursary" style={{textDecoration:`none`, color:`#a866ce`}}>Bursary Application</Link>
                 <br></br>
-                <Link to="/" style={{textDecoration:`none`}}>Register Now!</Link>
+                <Link to="/" style={{textDecoration:`none`, color:`#a866ce`}}>Register Now!</Link>
               </ul>
             </div>
           )}
