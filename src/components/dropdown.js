@@ -29,14 +29,14 @@ class Dropdown extends Component {
   render() {
     return (
       <div className="DropDown">
-        <div className="container" ref={this.container}>
+        <div className="container" ref={this.container} style={{alignItems:`center`}}>
           <button type="button" class="button" onClick={this.handleButtonClick} style={{width:350, height:50, position: 'relative', left: '50%',
-        transform: 'translate(-50%, 0)', borderRadius:`7px`, backgroundColor:`#a866ce`}}>
+        transform: 'translate(-50%, 0)', borderRadius:`7px`, backgroundColor:`#a866ce`, alignItems:`center`}}>
            MENU  ▾
           </button>
           {this.state.open && (
             <div class="container">
-              <ul style={{width:350, position: 'relative', left: '50%',
+              <ul style={{width:300, position: 'relative', left: '50%',
         transform: 'translate(-50%, 0)', alignContent:`left`, justifyContent:`left`, boxShadow:'1px 3px 3px 1px #9E9E9E'}}>
                 <Link to="/" style={{textDecoration:`none`}}>Home</Link>
                <br></br>
