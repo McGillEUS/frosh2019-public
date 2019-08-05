@@ -28,7 +28,7 @@ const SecondPage = () => (
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>Do I have to register?</h3>
     <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Yes. To attend any Frosh events, you must register (online or in-person) and pick up your Frosh bracelet.</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>I made a mistake on my registration, how can I correct it?</h3>
-    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Send us an email to oweek.communications@mcgilleus.ca any time, or come see us at the registration tent after August 21st.</p>
+    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Send us an email to oweek@mcgilleus.ca any time, or come see us at the registration tent after August 21st.</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>Where do I pick up my Frosh gear?</h3>
     <p style={{paddingLeft:'15px', paddingRight:'15px'}}>At the registration tent located on Lower Field West! See the map on the first page!</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>Do I need ID during Frosh?</h3>
@@ -61,7 +61,7 @@ const SecondPage = () => (
     <br></br>If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh.
     </p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>I’m not in Engineering, can I sign up for Engineering Frosh?</h3>
-    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Probably not. Students are strongly suggested to participate in the Frosh of their faculty, or in a non-Faculty Frosh, so they can make connections with people they will be working alongside throughout their McGill career. If you have unusual circumstances and think that Engineering Frosh would be the best fit for you (e.g. you transferred Faculties after registering for Frosh), send an email to oweek.communications@mcgilleus.ca or find an Engineering Frosh Coordinator at the registration tent (starting August 21st).</p>
+    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Probably not. Students are strongly suggested to participate in the Frosh of their faculty, or in a non-Faculty Frosh, so they can make connections with people they will be working alongside throughout their McGill career. If you have unusual circumstances and think that Engineering Frosh would be the best fit for you (e.g. you transferred Faculties after registering for Frosh), send an email to oweek@mcgilleus.ca or find an Engineering Frosh Coordinator at the registration tent (starting August 21st).</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>I’m from Montreal - why should I do Frosh?</h3>
     <p style={{paddingLeft:'15px', paddingRight:'15px'}}>You may already know the city well, but Frosh will acquaint you with McGill and the surrounding area. Frosh will connect you with classmates and mentors who will help you make the most of your McGill career.</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>I’m not from Montreal - why should I do Frosh?</h3>
@@ -88,11 +88,11 @@ const SecondPage = () => (
     </p>
     <h1 style={{paddingLeft:'15px', paddingRight:'15px'}}>Accessibility</h1>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>I have mobility restrictions, will I be able to participate in Frosh?</h3>
-    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Absolutely. We’ve done our best to maximize the number of accessible events in our schedule - see the froshie package page for accessibility details about each venue. For the venues that are inaccessible by wheelchair, we may be able to work out a solution - contact the Frosh Coordinators at oweek.communications@mcgilleus.ca for more details.</p>
+    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Absolutely. We’ve done our best to maximize the number of accessible events in our schedule - see the froshie package page for accessibility details about each venue. For the venues that are inaccessible by wheelchair, we may be able to work out a solution - contact the Frosh Coordinators at oweek@mcgilleus.ca for more details.</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>During Frosh, where can I seek additional support for accessibility challenges?</h3>
     <p style={{paddingLeft:'15px', paddingRight:'15px'}}>When you register online, there will be an area for you to outline your accessibility challenge. This will help us prepare to assist you during our events. When you come to pick up your gear at the registration tent, we’ll be happy to discuss what solutions we have available. After meeting your Leaders, discuss your accessibility challenge with them, and they will plan ahead to ensure you have access to every event possible.</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>I have a concern that I would like addressed before registering, how can I contact a Frosh Coordinator?</h3>
-    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Any concerns can be sent to oweek.communications@mcgilleus.ca, and the appropriate Coordinator will reply to your question.</p>
+    <p style={{paddingLeft:'15px', paddingRight:'15px'}}>Any concerns can be sent to oweek@mcgilleus.ca, and the appropriate Coordinator will reply to your question.</p>
     <h3 style={{paddingLeft:'15px', paddingRight:'15px'}}>I have mental health challenges. How could Frosh impact me?</h3>
     <p style={{paddingLeft:'15px', paddingRight:'15px'}}>If you are taking medication, be sure to check that it is safe to mix your medication with alcohol before drinking. Frosh is a social event, but at many events there will be Chill Zones for you to take a break from the action. If you ever need someone to talk to during Frosh, don’t be shy to talk to Frosh Leaders or Coordinators!</p>
     </div>
