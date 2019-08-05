@@ -12,7 +12,7 @@ const Footer = ({ siteTitle }) => (
       <section>
                 <p style = {{position:`relative`, color: `white`, paddingLeft:`15px`}}>Address ⌭ 845 Sherbrooke St W  &bull; Montreal, QC &bull; H3A 0G4</p>
                 <p style = {{position:`relative`, color: `white`, paddingLeft:`15px`}}>Phone ⌭ (514) 398-4455</p>
-                <p style = {{position:`relative`, color: `white`, textDecoration:`none`, paddingLeft:`15px`}}><a href="#" style={{color: `white`, textDecoration:`none`}}>Email ⌭ oweek.communications@mcgilleus.ca</a></p>
+                <p style = {{position:`relative`, color: `white`, textDecoration:`none`, paddingLeft:`15px`}}><a href="#" style={{color: `white`, textDecoration:`none`}}>Email ⌭ oweek@mcgilleus.ca</a></p>
                 <div style={{
       justifyContent: `center`,
       alignItems:`center`,
