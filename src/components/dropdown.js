@@ -46,7 +46,7 @@ class Dropdown extends Component {
                 <br></br>
                 <Link to="/resources" style={{textDecoration:`none`, color:`#a866ce`}}>Resources</Link>
                 <br></br>
-                <Link to="/bursary" style={{textDecoration:`none`, color:`#a866ce`}}>Bursary Application</Link>
+                <a target="_blank" href="https://docs.google.com/document/d/19_RjkopuN3saPOAuP6Ioc7gNRP2oCLgYOQLTMjHwvbk/edit" style={{textDecoration:`none`, color: `#a866ce`}}>Bursary Application</a>
                 <br></br>
                 <Link to="/" style={{textDecoration:`none`, color:`#a866ce`}}>Register Now!</Link>
               </ul>
