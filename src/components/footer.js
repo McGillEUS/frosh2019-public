@@ -8,11 +8,39 @@ const Footer = ({ siteTitle }) => (
   
   <span className="logo">
   <footer style = {{backgroundColor:`#260040`}}>
-      <h2 style = {{position:`relative`, color: `white`, paddingTop:`15px`, paddingLeft:`15px`}}>McGill EUS Frosh 2019</h2>
+  <div style={{
+      margin: `0 auto`,
+      justifyContent: `center`,
+      alignItems:`center`,
+      display: `flex`,
+      paddingLeft:'15px', paddingRight:'15px'
+    }}>
+      <h2 style = {{position:`relative`, color: `white`, paddingTop:`15px`, paddingLeft:`15px`}}>McGill EUS Frosh 2019</h2></div>
       <section>
-                <p style = {{position:`relative`, color: `white`, paddingLeft:`15px`}}>Address ⌭ 845 Sherbrooke St W  &bull; Montreal, QC &bull; H3A 0G4</p>
-                <p style = {{position:`relative`, color: `white`, paddingLeft:`15px`}}>Phone ⌭ (514) 398-4455</p>
-                <p style = {{position:`relative`, color: `white`, textDecoration:`none`, paddingLeft:`15px`}}><a href="#" style={{color: `white`, textDecoration:`none`}}>Email ⌭ oweek@mcgilleus.ca</a></p>
+        <div style={{
+      margin: `0 auto`,
+      justifyContent: `center`,
+      alignItems:`center`,
+      display: `flex`,
+      paddingLeft:'15px', paddingRight:'15px'
+    }}>
+                <p style = {{position:`relative`, color: `white`, paddingLeft:`15px`}}>Address ⌭ 845 Sherbrooke St W  &bull; Montreal, QC &bull; H3A 0G4</p></div>
+                <div style={{
+      margin: `0 auto`,
+      justifyContent: `center`,
+      alignItems:`center`,
+      display: `flex`,
+      paddingLeft:'15px', paddingRight:'15px'
+    }}>
+                <p style = {{position:`relative`, color: `white`, paddingLeft:`15px`}}>Phone ⌭ (514) 398-4455</p></div>
+                <div style={{
+      margin: `0 auto`,
+      justifyContent: `center`,
+      alignItems:`center`,
+      display: `flex`,
+      paddingLeft:'15px', paddingRight:'15px'
+    }}>
+                <p style = {{position:`relative`, color: `white`, textDecoration:`none`, paddingLeft:`15px`}}><a href="#" style={{color: `white`, textDecoration:`none`}}>Email ⌭ oweek@mcgilleus.ca</a></p></div>
                 <div style={{
       justifyContent: `center`,
       alignItems:`center`,
